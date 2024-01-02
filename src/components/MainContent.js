@@ -5,8 +5,8 @@ export default function MainContent() {
 	return (
 		<div className="main--container">
 			<img src={image} className="main--img"/>
-			<h1>Online Experiences</h1>
-			<p>
+			<h1 className="main--h1">Online Experiences</h1>
+			<p className="main--p">
 				Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
 			</p>
 		</div>
