@@ -1,7 +1,7 @@
 import React from "react"
 
 
-import Navbar from "./components/NavBar"
+import NavBar from "./components/NavBar"
 
 
 
