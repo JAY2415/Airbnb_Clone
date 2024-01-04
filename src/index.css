@@ -48,7 +48,6 @@ section {
 
 .card {
 	width: 175px;
-	font-size: 0.75rem;
 }
 
 .card--img {
@@ -75,5 +74,4 @@ section {
 
 h2 {
 	font-weight: normal;
-	font-size: 0.75rem;
 }
