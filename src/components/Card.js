@@ -5,7 +5,7 @@ import star from "../images/star.png"
 export default function Card(props) {
 	return (
 		<div className="card">
-			<img src="../src/images/{props.img}.png" className="card--img" />
+			<img src={require("../src/images/${props.img}.png")} className="card--img" />
 			<div className="card--stats">
 				<img src={star} className="card--star"/>
 				<span>{props.rating}</span>
