@@ -26,7 +26,9 @@ export default function App() {
 		<div>
 			<NavBar />
 			<MainContent />
-			{cards}
+			<section className="card--list">
+				{cards}
+			</section>
 		</div>
 
 	)
