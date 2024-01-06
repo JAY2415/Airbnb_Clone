@@ -48,7 +48,7 @@ section {
 
 .card {
 	border-style: inset;
-	border-width: thick;
+	border-radius: 9px;
 	flex: 0 0 auto;
     display: flex;
     flex-direction: column;
