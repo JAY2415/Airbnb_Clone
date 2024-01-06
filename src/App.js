@@ -14,10 +14,10 @@ export default function App() {
         		img={item.coverImg}
 				rating={item.stats.rating}      
 				reviewCount={item.stats.reviewCount}     
-				country={item.location}      
+				location={item.location}      
 				title={item.title}
         		price={item.price}
-				openspots={item.openSpots}
+				openSpots={item.openSpots}
 			/>
 		)
 	})
